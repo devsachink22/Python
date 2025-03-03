@@ -10,6 +10,13 @@ c=8-2j #c is a variable into which data of complex type is stored
 print(c) #print the value stored in variable c
 print(type(c)) #print the type/class of value stored in variable c
 
+a=True #a is a variable into which data of bool/boolean type is stored
+print(a) #print the value stored in variable a
+print(22>9) #checks whether the condition is true or false & return bool/boolean
+b=False #b is a variable into which data of bool/boolean type is stored
+print(b) #print the value stored in variable b
+print(22<9) #checks whether the condition is true or false & return bool/boolean
+
 x=0b11 #x is a variable into which data of binary type is stored
 print(x) #print the value stored in variable x
 print(type(x)) #print the type/class of value stored in variable x
