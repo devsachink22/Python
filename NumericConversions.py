@@ -21,4 +21,4 @@ print(bin(a)) #conversion step of int type to binary type
 print(hex(a)) #conversion step of int type to hexadecimal type
 print(oct(a)) #conversion step of int type to octadecimal type
 
-"""String of decimal type can not be directly converted into integer. Firstly, it should be converted into float & then int.
+"""String of decimal type can not be directly converted into integer. Firstly, it should be converted into float & then int."""
