@@ -1,8 +1,8 @@
 s="This is my python code." #declaration of variable s with static string
 print(s) #fetches the data stored in variable s
 print(type(s)) #identifies the type/class of data stored in variable s
-print(len(s)) #identifies the number of elements stores in variable s
-print(s*3) #print the data stored in variable for 3 times which can also be n number of times
+print(len(s)) #identifies the number of elements stores in string s
+print(s*3) #print the data stored in string s for 3 times which can also be n number of times
 
 # String Indexing
 print(s[0]) #print the first character of string s
