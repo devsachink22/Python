@@ -10,7 +10,7 @@ print(s[-1]) # print the last character of string s
 print(s[3]) #print the 4th character of string s
 
 # String Slicing or Slicing a string
-print(s[1:7]) #print the character of string s from 1st index value to 6th index value & not includes the character of 7th index value
+print(s[1:7]) #print all the characters of string s from 1st index value to 6th index value & not includes the character of 7th index value
 print(s[1:]) #print all the characters of string s from 1st index value
 print(s[:-4]) #print all the characters of string s before the last 4th character
 print(s[6:-1]) #print all the characters of string s from 6th index value to the last 2nd character
