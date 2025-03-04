@@ -28,14 +28,14 @@ print(s.upper()) #convert all the letters/words in string s to upper case
 print(s.capitalize()) #convert the first letter of first word in string s to upper case
 print(s.title()) #convert the first letter of all the words in string s to upper case
 
-#In Function
+# In Function
 print('sachin' in s) #checks whether a word/letter 'sachin' is present in string s
 print('code' in s) #checks whether a word/letter 'code' is present in string s
 
 s2='It is an interpreter language.'
 print(s+s2) #concatination of s & s2 strings to merge all the characters.
 
-#Strip Function
+# Strip Function
 print(s.strip()) #removes empty spaces from the left & right of the string s
 print(s.lstrip()) #removes empty spaces from the left of the string s
 print(s.rstrip()) #removes empty spaces from the right of the string s
