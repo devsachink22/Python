@@ -20,9 +20,11 @@ print(d)
 d['citizen']='indian' #insert a key-value pair at the last of dictionary d
 print(d)
 d.update({'phonenumber':'0987654321'}) #insert a key-value pair at the last of dictionary d
+print(d)
 dc=d.copy() #copy all the key-value pairs from dictionary d to dc
 print(dc)
-print(d)
+dc1=dict(d) #copy all the key-value pairs from dictionary d to dc1
+print(dc1)
 d.popitem() #removes the last key-value pair from the dictionary d
 print(d)
 d.pop('lastname') #removes the value of particular key from the dictionary d
