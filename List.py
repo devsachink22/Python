@@ -6,18 +6,18 @@ print(type(l)) #print the type/class of variable l
 print(len(l)) #identify the number of elements stored in list l
 print(l*4) #print the items stored in list l for 4 times which can also be n times
 
-#List Indexing
+# List Indexing
 print(l[0]) #print the first element of list l
 print(l[-1]) # print the last element of list l
 print(l[3]) #print the 4th element of list l
 
-#List Slicing or Slicing a list
+# List Slicing or Slicing a list
 print(l[1:4]) #print the elements of list l from 1st index value to 3rd index value & not includes the element of 4th index value
 print(l[1:]) #print all the elements of list l from 1st index value
 print(l[:-4]) #print all the elements of list l before the last 4th element
 print(l[1:-1]) #print all the elements of list l from 1st index value to the last 2nd element
 
-#List Slicing Steps or Steps in list slicing
+# List Slicing Steps or Steps in list slicing
 print(l[1:4:3]) #print all the elements of list l from 1st index value to 3rd index value with jumping 2 steps each and not includes the element of 4th index value
 print(l[-5:-2:2]) #print all the elements of list l that ranges from the last 5th element to the last 3rd element with jumping 1 step each and not includes the last 2nd element
 
@@ -60,4 +60,4 @@ print(ln)
 ln.sort(reverse=True) #sort the list ln in descending order
 print(ln)
 
-#All the elements should be in numeric form in order to perform max, min & sort functions on list
+# All the elements should be in numeric form in order to perform max, min & sort functions on list
